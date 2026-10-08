@@ -26,7 +26,7 @@ class ProductDetailsScreen extends StatelessWidget {
     return Scaffold(
       bottomNavigationBar: isProductAvailable
           ? CartButton(
-              price: 140,
+              price: 54.9,
               press: () {
                 customModalBottomSheet(
                   context,

@@ -45,12 +45,11 @@ class _EntryPointState extends State<EntryPoint> {
         leading: const SizedBox(),
         leadingWidth: 0,
         centerTitle: false,
-        title: SvgPicture.asset(
-          "assets/logo/Shoplon.svg",
-          colorFilter: ColorFilter.mode(
-              Theme.of(context).iconTheme.color!, BlendMode.srcIn),
-          height: 20,
+        title: Image.asset(
+          "assets/logo/boutiqui.jpg",
           width: 100,
+          height: 44,
+          fit: BoxFit.cover,
         ),
         actions: [
           IconButton(

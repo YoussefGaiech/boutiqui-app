@@ -40,12 +40,17 @@ class WalletBalanceCard extends StatelessWidget {
                         fontSize: 12),
                   ),
                   const SizedBox(height: defaultPadding / 2),
-                  Text(
-                    "\$${balance.toStringAsFixed(2)}",
-                    style: Theme.of(context)
-                        .textTheme
-                        .headlineSmall!
-                        .copyWith(color: Colors.white),
+                  Center(
+                    child: FittedBox(
+                      fit: BoxFit.scaleDown,
+                      child: Text(
+                        formatTnd(balance),
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineSmall!
+                            .copyWith(color: Colors.white),
+                      ),
+                    ),
                   )
                 ],
               ),

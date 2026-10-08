@@ -44,21 +44,21 @@ class WalletScreen extends StatelessWidget {
                     child: WalletHistoryCard(
                       isReturn: index == 1,
                       date: "JUN 12, 2020",
-                      amount: 129,
+                      amount: 123.2,
                       products: [
                         ProductModel(
                           image: productDemoImg1,
                           title: "Mountain Warehouse for Women",
                           brandName: "Lipsy london",
-                          price: 540,
-                          priceAfetDiscount: 420,
+                          price: 54,
+                          priceAfetDiscount: 43.2,
                           dicountpercent: 20,
                         ),
                         ProductModel(
                           image: productDemoImg4,
                           title: "Mountain Beta Warehouse",
                           brandName: "Lipsy london",
-                          price: 800,
+                          price: 80,
                         ),
                       ],
                     ),
